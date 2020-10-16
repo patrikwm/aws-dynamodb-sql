@@ -1,4 +1,5 @@
 #aws-dynamodb-sql
+
 This project is me learning DynamoDB with Boto3 on MacOS
 
 What it does?
