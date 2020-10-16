@@ -1,4 +1,4 @@
-#aws-dynamodb-sql
+# aws-dynamodb-sql
 
 This project is me learning DynamoDB with Boto3 on MacOS
 
@@ -13,7 +13,8 @@ What's missing?
 - DynamoDB UnprocessedItems handling
 
 
-##Prerequisites
+## Prerequisites
+
  - python3 [Install python3](https://installpython3.com/mac/)
  - docker [Install Docker](https://docs.docker.com/docker-for-mac/install/)
  - docker-compose [Install docker-compose](https://docs.docker.com/compose/install/)
@@ -23,6 +24,7 @@ What's missing?
  
  
 ## Get it running
+
 1. In AWS IAM Console (Web portal), create an IAM user that has AdministratorAccess or limited access to only access DynamoDB.
 1. In AWS IAM Console (Web portal), add an Access Key for the user that is used when configuring AWS CLI.
 1. Configure the AWS CLI with the Access Key from previous step. [AWS CLI Configuration basics](https://docs.aws.amazon.com/cli/latest/userguide/cli-configure-quickstart.html)
